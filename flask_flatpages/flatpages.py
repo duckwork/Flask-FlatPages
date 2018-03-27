@@ -18,7 +18,7 @@ from werkzeug.utils import cached_property, import_string
 
 from . import compat
 from .page import Page
-from .utils import force_unicode, pygmented_markdown
+from .utils import force_unicode, cat
 
 
 class FlatPages(object):
@@ -30,8 +30,8 @@ class FlatPages(object):
         ('root', 'pages'),
         ('extension', '.html'),
         ('encoding', 'utf-8'),
-        ('html_renderer', pygmented_markdown),
-        ('markdown_extensions', ['codehilite']),
+        ('html_renderer', cat),
+        ('markdown_extensions', []),
         ('auto_reload', 'if debug'),
     )
 

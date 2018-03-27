@@ -30,11 +30,10 @@ setup(
     install_requires=[
         'Flask>=0.8',
         'PyYAML>=3.10',
-        'Markdown>=2.3.1'
     ],
-    tests_require=['Pygments>=1.6'],
+    tests_require=[],
     extras_require={
-        'tests': ['Pygments>=1.6'],
+        'tests': [],
     },
     classifiers=[
         'Environment :: Web Environment',
