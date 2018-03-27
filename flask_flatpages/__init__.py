@@ -12,7 +12,7 @@ Pages are built from "flat" text files as opposed to a relational database.
 
 from .flatpages import FlatPages  # noqa
 from .page import Page  # noqa
-from .utils import pygmented_markdown, pygments_style_defs  # noqa
+# from .utils import pygmented_markdown, pygments_style_defs  # noqa
 
 
 __author__ = 'Simon Sapin, Igor Davydenko'
